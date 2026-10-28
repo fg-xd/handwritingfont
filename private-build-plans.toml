@@ -1,34 +1,140 @@
-# Put your custom build plans here
-
-[buildPlans.IosevkaCustomSample]
-family = "Iosevka Custom Sample"
+[buildPlans.Fgxd]
+family = "fgxd"
 spacing = "normal"
 serifs = "sans"
 noCvSs = true
 exportGlyphNames = false
 
-[buildPlans.IosevkaCustomSample.weights.Regular]
-shape = 400
+[buildPlans.Fgxd.metricOverride]
+xHeight = 480
+
+[buildPlans.Fgxd.variants.design]
+two = "straight-neck-serifless"
+four = "open-serifless"
+seven = "straight-serifless-crossbar"
+eight = "two-circles"
+zero = "oval-dotted"
+capital-a = "round-top-serifless"
+capital-b = "more-asymmetric-serifless"
+capital-d = "more-rounded-serifless"
+capital-g = "toothless-rounded-serifless-hooked"
+capital-i = "short-serifed"
+capital-j = "serifless"
+capital-k = "curly-serifless"
+capital-m = "hanging-serifless"
+capital-n = "asymmetric-serifless"
+capital-p = "closed-serifless"
+capital-q = "crossing"
+capital-r = "curly-serifless"
+capital-w = "straight-vertical-sides-serifless"
+a = "single-storey-serifless"
+e = "rounded"
+f = "serifless-crossbar-at-half-ascender-height"
+i = "hooky"
+j = "narrow-serifed"
+k = "curly-serifless"
+l = "zshaped"
+m = "short-leg-serifless"
+n = "straight-serifless"
+r = "narrow-hook-serifless"
+t = "flat-hook"
+u = "toothless-rounded-serifless"
+w = "straight-vertical-sides-serifless"
+y = "cursive-serifless"
+lower-theta = "oval"
+paren = "large-contour"
+brace = "curly-flat-boundary"
+number-sign = "slanted"
+at = "threefold"
+dollar = "through-cap"
+cent = "through"
+percent = "dots"
+question = "corner-flat-hooked"
+decorative-angle-brackets = "short"
+lig-ltgteq = "slanted"
+lig-neq = "more-slanted"
+lig-equal-chain = "without-notch"
+lig-hyphen-chain = "without-notch"
+lig-double-arrow-bar = "without-notch"
+lig-single-arrow-bar = "without-notch"
+
+[buildPlans.Fgxd.variants.italic]
+two = "straight-neck-serifless"
+four = "open-serifless"
+seven = "straight-serifless-crossbar"
+eight = "two-circles"
+zero = "oval-dotted"
+capital-a = "round-top-serifless"
+capital-b = "more-asymmetric-serifless"
+capital-d = "more-rounded-serifless"
+capital-g = "toothless-rounded-serifless-hooked"
+capital-i = "short-serifed"
+capital-j = "serifless"
+capital-k = "curly-serifless"
+capital-m = "hanging-serifless"
+capital-n = "asymmetric-serifless"
+capital-p = "closed-serifless"
+capital-q = "crossing"
+capital-r = "curly-serifless"
+capital-w = "straight-vertical-sides-serifless"
+a = "single-storey-serifless"
+d = "toothed-serifless"
+e = "rounded"
+f = "serifless-crossbar-at-half-ascender-height"
+i = "hooky"
+j = "narrow-serifed"
+k = "curly-serifless"
+l = "zshaped"
+m = "short-leg-serifless"
+n = "straight-serifless"
+r = "narrow-hook-serifless"
+t = "flat-hook"
+u = "toothless-rounded-serifless"
+w = "straight-vertical-sides-serifless"
+y = "cursive-serifless"
+lower-theta = "oval"
+paren = "large-contour"
+brace = "curly-flat-boundary"
+number-sign = "slanted"
+at = "threefold"
+dollar = "through-cap"
+cent = "through"
+percent = "dots"
+question = "corner-flat-hooked"
+decorative-angle-brackets = "short"
+lig-ltgteq = "slanted"
+lig-neq = "more-slanted"
+lig-equal-chain = "without-notch"
+lig-hyphen-chain = "without-notch"
+lig-double-arrow-bar = "without-notch"
+lig-single-arrow-bar = "without-notch"
+
+  [buildPlans.Fgxd.ligations]
+  inherits = "dlig"
+
+[buildPlans.Fgxd.weights.Regular]
+shape = 450
 menu = 400
 css = 400
 
-[buildPlans.IosevkaCustomSample.weights.Bold]
-shape = 700
+[buildPlans.Fgxd.weights.Bold]
+shape = 785
 menu = 700
 css = 700
 
-[buildPlans.IosevkaCustomSample.slopes.Upright]
-angle = 0
+[buildPlans.Fgxd.widths.Normal]
+shape = 525
+menu = 5
+css = "normal"
+
+[buildPlans.Fgxd.slopes.Upright]
+angle = 4
 shape = "upright"
 menu = "upright"
 css = "normal"
 
-[buildPlans.IosevkaCustomSample.slopes.Italic]
-angle = 9.4
+[buildPlans.Fgxd.slopes.Italic]
+angle = 10
 shape = "italic"
 menu = "italic"
 css = "italic"
-
-# To enable TTC building, uncomment the following section and write your collect plans
-# [collectPlans.IosevkaCustomSample]
-# from = ["IosevkaCustomSample"]
