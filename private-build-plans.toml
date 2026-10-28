@@ -134,7 +134,7 @@ menu = "upright"
 css = "normal"
 
 [buildPlans.Fgxd.slopes.Italic]
-angle = 10
+angle = 14
 shape = "italic"
 menu = "italic"
 css = "italic"
